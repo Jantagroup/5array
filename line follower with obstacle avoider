@@ -16,8 +16,8 @@
 
 #define MOTOR_SPEED 180
 
-#define trigPin 1   // ultrasonic sensor
-#define echoPin 13
+#define trigPin A1   // ultrasonic sensor
+#define echoPin A2
 
 int count = 0;
 int table_no = 1;
